@@ -52,7 +52,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
   ![ex1](putmethods.PNG)  
   ### GET
   Metoda GET are rolul de a afișa datele existente pe un server. În imaginile de mai jos, se poate vedea exemplificarea metodei GET pe datele de pe server.  
-  ![ex1](getmethod.PNG)  
+  ![ex1](getmethod.PNG)      
   ![ex1](getmethod7.PNG) 
   
   
