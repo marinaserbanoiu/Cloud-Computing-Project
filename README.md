@@ -68,6 +68,8 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
    ![ex1](error1.PNG)   
   #### ii) "Acest site nu poate fi accesat"
    ![ex1](error1.1.PNG)  
+ #### Aceste erori erau datorate faptului că mediul de lucru nu era configurat să ruleze pe portul 8080. Era necesară setarea din imagine:
+  ![ex1](solve1.PNG) 
    
   
   
