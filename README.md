@@ -33,6 +33,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
      "author":"Alex Michaelides"
  }
  ```
+ ![ex1](example2.PNG)
  ```
  {
      "Smartphone":"LenovoP70A";
@@ -41,6 +42,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  }
  
  ```
+ ![ex1](example3.PNG)  
  ### 2) Metode HTTP
   #### POST 
   Această metodă presupune crearea unor noi date pe server. În imaginea de mai jos, este reprezentat un request de tip POST, prin intermediul programului Postman.
