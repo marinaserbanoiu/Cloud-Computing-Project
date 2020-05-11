@@ -47,6 +47,9 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
   #### POST 
   Această metodă presupune crearea unor noi date pe server. În imaginea de mai jos, este reprezentat un request de tip POST, prin intermediul programului Postman.  
   ![ex1](postmethod.PNG)  
+  ### PUT
+  Metoda PUT actualizează datele de pe server. Aplicarea acestei metode pe datele de pe serverul aplicației mele se poate vedea în imaginea de mai jos.  
+  
   
  
  
