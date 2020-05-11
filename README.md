@@ -55,7 +55,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
   ![ex1](getmethod.PNG)    
   ![ex1](getmethod7.PNG)  
   ### DELETE
-  Metode DELETE e folosită pentru șterge date de pe server. Metoda se poate vedea exemplificată în imaginea de mai jos, prin intermediul Postman.  
+  Metode DELETE e folosită pentru a șterge date de pe server. Metoda se poate vedea exemplificată în imaginea de mai jos, prin intermediul Postman.  
    ![ex1](deletemethod.PNG) 
    Se poate vedea în screenshot-ul de mai jos că resursa cu id=11, a fost ștearsă cu succes.  
    ![ex1](allbooks.PNG) 
