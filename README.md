@@ -65,9 +65,9 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  Aplicația mea are următoarea interfață principală:  
  ### Erori întâmpinate în realizarea aplicației
   #### i) "Failed to connect to 127.0.0.1 port 8080: Connection refused"  
-    ![ex1](error1.PNG)   
+   ![ex1](error1.PNG)   
   #### ii) "Acest site nu poate fi accesat"
-    ![ex1](error1.1.PNG)  
+   ![ex1](error1.1.PNG)  
    
   
   
