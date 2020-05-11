@@ -21,7 +21,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  ### 1) Exemple de request-response
  ```
  { 
-    "welcome":"everyone"
+    "hello":"everyone"
  }
  ```
  
