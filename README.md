@@ -50,6 +50,10 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
   ### PUT
   Metoda PUT actualizează datele de pe server. Aplicarea acestei metode pe datele de pe serverul aplicației mele se poate vedea în imaginea de mai jos.  
   ![ex1](putmethods.PNG)  
+  ### GET
+  Metoda GET are rolul de a afișa datele existente pe un server. În imaginile de mai jos, se poate vedea exemplificarea metodei GET pe datele de pe server.  
+  ![ex1](getmethods.PNG)  
+  ![ex1](getmethods7.PNG) 
   
   
  
