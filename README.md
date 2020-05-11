@@ -53,7 +53,12 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
   ### GET
   Metoda GET are rolul de a afișa datele existente pe un server. În imaginile de mai jos, se poate vedea exemplificarea metodei GET pe datele de pe server.  
   ![ex1](getmethod.PNG)    
-  ![ex1](getmethod7.PNG) 
+  ![ex1](getmethod7.PNG)  
+  ### DELETE
+  Metode DELETE e folosită pentru șterge date de pe server. Metoda se poate vedea exemplificată în imaginea de mai jos, prin intermediul Postman.  
+   ![ex1](deletemethod.PNG) 
+   Se poate vedea în screenshot-ul de mai jos că resursa cu id=11, a fost ștearsă cu succes.  
+   ![ex1](allbooks.PNG) 
   
   
  
