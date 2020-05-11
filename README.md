@@ -25,7 +25,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  }
  ```
  
-   
+  ![ex1](example1.PNG) 
    
  ```
  {
