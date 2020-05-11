@@ -47,18 +47,21 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
   #### POST 
   Această metodă presupune crearea unor noi date pe server. În imaginea de mai jos, este reprezentat un request de tip POST, prin intermediul programului Postman.  
   ![ex1](postmethod.PNG)  
-  ### PUT
+  #### PUT
   Metoda PUT actualizează datele de pe server. Aplicarea acestei metode pe datele de pe serverul aplicației mele se poate vedea în imaginea de mai jos.  
   ![ex1](putmethods.PNG)  
-  ### GET
+  #### GET
   Metoda GET are rolul de a afișa datele existente pe un server. În imaginile de mai jos, se poate vedea exemplificarea metodei GET pe datele de pe server.  
   ![ex1](getmethod.PNG)    
   ![ex1](getmethod7.PNG)  
-  ### DELETE
+  #### DELETE
   Metode DELETE e folosită pentru a șterge date de pe server. Metoda se poate vedea exemplificată în imaginea de mai jos, prin intermediul Postman.  
    ![ex1](deletemethod.PNG) 
    Se poate vedea în screenshot-ul de mai jos că resursa cu id=11, a fost ștearsă cu succes.      
-   ![ex1](allbooks.PNG) 
+   ![ex1](allbooks.PNG)  
+ ### Google Books API - Public API
+ Serviciul utilizat de mine în cadrul aplicației, Google Books API nu a necesitat o autentificare cu APIkey sau Oauth înainte de utilizare. Fiind un API pe care doar se putea aplica metoda GET, am putut să afișez informații despre anumite cărți în funcție de căutare, fără nicio problemă. API-ul utilizat de mine a avut următoarea formă: https://www.googleapis.com/books/v1/{collectionName}/resourceID?parameters.
+   
   
   
  
