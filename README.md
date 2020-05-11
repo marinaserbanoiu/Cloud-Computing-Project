@@ -49,6 +49,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
   ![ex1](postmethod.PNG)  
   ### PUT
   Metoda PUT actualizează datele de pe server. Aplicarea acestei metode pe datele de pe serverul aplicației mele se poate vedea în imaginea de mai jos.  
+  ![ex1](putmethods.PNG)  
   
   
  
