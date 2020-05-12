@@ -87,6 +87,9 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  #### Aceste erori erau datorate faptului că mediul de lucru nu era configurat să ruleze pe portul 8080. Era necesară setarea din imagine:
   ![ex1](solve1.PNG) 
  #### Ultima eroare mai apare și în momentul când serverul nu a fost pornit.
+ #### iii) Nu am putut să mai dau commit după ce am făcut primul commit  
+ ![exx](errorcommit.PNG) <br/><br/>
+ Eroarea era datorată de la faptul că făcusem modificări pe GitHub asupra proiectului pe care nu le aveam și în mediul de lucru AWS Cloud 9. Era nevoie să actualizez mediul de lucru cu ceea ce era pe GitHub cu comanda "git pull" și apoi să dau commit la modificări.
    
   
   
