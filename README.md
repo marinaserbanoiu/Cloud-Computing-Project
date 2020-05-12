@@ -94,4 +94,6 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  
  ### Referinte:
  https://developers.google.com/books/docs/v1/getting_started   
- https://www.w3schools.com/default.asp
+ https://www.w3schools.com/default.asp  
+ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html  
+ https://github.com/aws/aws-elastic-beanstalk-cli-setup
