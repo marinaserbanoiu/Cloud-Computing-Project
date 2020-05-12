@@ -1,4 +1,4 @@
- # Proiect Cloud-Computing
+ # Proiect Cloud-Computing: Aplicație pentru gestionarea informațiilor despre cărțile citite/favorite
                                     
  ### Introducere
 
