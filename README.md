@@ -55,19 +55,19 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
   ![ex1](getmethod.PNG)   <br/><br/> 
   ![ex1](getmethod7.PNG)  
   #### DELETE
-  Metode DELETE e folosită pentru a șterge date de pe server. Metoda se poate vedea exemplificată în imaginea de mai jos, prin intermediul Postman. <br/> 
+  Metode DELETE e folosită pentru a șterge date de pe server. Metoda se poate vedea exemplificată în imaginea de mai jos, prin intermediul Postman.   
    ![ex1](deletemethod.PNG) 
-   Se poate vedea în screenshot-ul de mai jos că resursa cu id=11, a fost ștearsă cu succes. <br/>     
+   Se poate vedea în screenshot-ul de mai jos că resursa cu id=11, a fost ștearsă cu succes.       
    ![ex1](allbooks.PNG)  
  ### 3) Google Books API - Public API
  Serviciul utilizat de mine în cadrul aplicației, Google Books API nu a necesitat o autentificare cu APIkey sau Oauth înainte de utilizare. Fiind un API pe care doar se putea aplica metoda GET, am putut să afișez informații despre anumite cărți în funcție de căutare, fără nicio problemă. API-ul utilizat de mine a avut următoarea formă: https://www.googleapis.com/books/v1/{collectionName}/resourceID?parameters.  
  ### Capturi de ecran - aplicație
- Aplicația mea are următoarea interfață principală: <br/> 
+ Aplicația mea are următoarea interfață principală:   
  ![ex1](ecranprincipal.PNG)  
- Din această interfață utilizatorul își poate adăuga o carte nouă, poate să vadă lista cărților adăugate sau poate să meargă în pagina de căutare dacă dorește informații despre o anumită carte. <br/> 
+ Din această interfață utilizatorul își poate adăuga o carte nouă, poate să vadă lista cărților adăugate sau poate să meargă în pagina de căutare dacă dorește informații despre o anumită carte.   
  ![ex2](ecranlista.PNG) <br/><br/> 
  ![ex3](ecransearch.PNG)  <br/><br/>
- Dacă este interesat de o anumită carte utilizatorul poate apasă butonul READ MORE pentru a afla mai multe informații (recenzii, review-uri etc.) <br/>
+ Dacă este interesat de o anumită carte utilizatorul poate apasă butonul READ MORE pentru a afla mai multe informații (recenzii, review-uri etc.)  
  ![exx](readmore.PNG) <br/><br/>
  
  
