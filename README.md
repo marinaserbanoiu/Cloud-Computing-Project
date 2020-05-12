@@ -66,7 +66,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  ![ex1](ecranprincipal.PNG)  
  Din această interfață utilizatorul își poate adăuga o carte nouă, poate să vadă lista cărților adăugate sau poate să meargă în pagina de căutare dacă dorește informații despre o anumită carte.  
  ![ex2](ecranlista.PNG) <br/><br/> 
- ![ex3](ecransearch.PNG)  
+ ![ex3](ecransearch.PNG)  <br/><br/>
  
  ### Erori întâmpinate în realizarea aplicației
   #### i) "Failed to connect to 127.0.0.1 port 8080: Connection refused"  
