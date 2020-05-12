@@ -18,7 +18,7 @@ Aplicația dezvoltată de mine vine în ajutorul iubitorilor de cărți, oferind
  Aplicația are la bază un server creat cu ajutorul Node.js și ExpressJs. Datele sunt stocate într-o bază de date MySql și pot fi accesate prin metodele HTTP (POST, GET, UPDATE, DELETE). Accesul la baza de date se realizează automat prin biblioteca Sequelize.
 Utilizatorul va putea adăuga o carte, actualiza, șterge și afișa toate cărțile adăugate până atunci.
 Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va prelucra această cerere și va returna un conținut pe care browserul îl va interpreta și îl va afișa utilizatorului în format JSON,XML etc.
- ### 1) Exemple de request-response
+ ### 1) Exemple de request-response 
  ```
  { 
     "hello":"everyone"
@@ -33,7 +33,7 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
      "author":"Alex Michaelides"
  }
  ```
- ![ex1](example2.PNG)
+ ![ex1](example2.PNG) <br/>
  ```
  {
      "Smartphone":"LenovoP70A";
@@ -45,29 +45,29 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  ![ex1](example3.PNG)  
  ### 2) Metode HTTP
   #### POST 
-  Această metodă presupune crearea unor noi date pe server. În imaginea de mai jos, este reprezentat un request de tip POST, prin intermediul programului Postman.  
+  Această metodă presupune crearea unor noi date pe server. În imaginea de mai jos, este reprezentat un request de tip POST, prin intermediul programului Postman. <br/> 
   ![ex1](postmethod.PNG)  
   #### PUT
-  Metoda PUT actualizează datele de pe server. Aplicarea acestei metode pe datele de pe serverul aplicației mele se poate vedea în imaginea de mai jos.  
+  Metoda PUT actualizează datele de pe server. Aplicarea acestei metode pe datele de pe serverul aplicației mele se poate vedea în imaginea de mai jos.  <br/>
   ![ex1](putmethods.PNG)  
   #### GET
-  Metoda GET are rolul de a afișa datele existente pe un server. În imaginile de mai jos, se poate vedea exemplificarea metodei GET pe datele de pe server.  
+  Metoda GET are rolul de a afișa datele existente pe un server. În imaginile de mai jos, se poate vedea exemplificarea metodei GET pe datele de pe server. <br/> 
   ![ex1](getmethod.PNG)   <br/><br/> 
   ![ex1](getmethod7.PNG)  
   #### DELETE
-  Metode DELETE e folosită pentru a șterge date de pe server. Metoda se poate vedea exemplificată în imaginea de mai jos, prin intermediul Postman.  
+  Metode DELETE e folosită pentru a șterge date de pe server. Metoda se poate vedea exemplificată în imaginea de mai jos, prin intermediul Postman. <br/> 
    ![ex1](deletemethod.PNG) 
-   Se poate vedea în screenshot-ul de mai jos că resursa cu id=11, a fost ștearsă cu succes.      
+   Se poate vedea în screenshot-ul de mai jos că resursa cu id=11, a fost ștearsă cu succes. <br/>     
    ![ex1](allbooks.PNG)  
  ### 3) Google Books API - Public API
  Serviciul utilizat de mine în cadrul aplicației, Google Books API nu a necesitat o autentificare cu APIkey sau Oauth înainte de utilizare. Fiind un API pe care doar se putea aplica metoda GET, am putut să afișez informații despre anumite cărți în funcție de căutare, fără nicio problemă. API-ul utilizat de mine a avut următoarea formă: https://www.googleapis.com/books/v1/{collectionName}/resourceID?parameters.  
  ### Capturi de ecran - aplicație
- Aplicația mea are următoarea interfață principală:  
+ Aplicația mea are următoarea interfață principală: <br/> 
  ![ex1](ecranprincipal.PNG)  
- Din această interfață utilizatorul își poate adăuga o carte nouă, poate să vadă lista cărților adăugate sau poate să meargă în pagina de căutare dacă dorește informații despre o anumită carte.  
+ Din această interfață utilizatorul își poate adăuga o carte nouă, poate să vadă lista cărților adăugate sau poate să meargă în pagina de căutare dacă dorește informații despre o anumită carte. <br/> 
  ![ex2](ecranlista.PNG) <br/><br/> 
  ![ex3](ecransearch.PNG)  <br/><br/>
- Dacă este interesat de o anumită carte utilizatorul poate apasă butonul READ MORE pentru a afla mai multe informații (recenzii, review-uri etc.)
+ Dacă este interesat de o anumită carte utilizatorul poate apasă butonul READ MORE pentru a afla mai multe informații (recenzii, review-uri etc.) <br/>
  ![exx](readmore.PNG) <br/><br/>
  
  
