@@ -63,6 +63,11 @@ Atunci când utilizatorul face o cerere pe server de tip CRUD, serverul web va p
  Serviciul utilizat de mine în cadrul aplicației, Google Books API nu a necesitat o autentificare cu APIkey sau Oauth înainte de utilizare. Fiind un API pe care doar se putea aplica metoda GET, am putut să afișez informații despre anumite cărți în funcție de căutare, fără nicio problemă. API-ul utilizat de mine a avut următoarea formă: https://www.googleapis.com/books/v1/{collectionName}/resourceID?parameters.  
  ### Capturi de ecran - aplicație
  Aplicația mea are următoarea interfață principală:  
+ ![ex1](ecranprincipal.PNG)  
+ Din această interfață utilizatorul își poate adăuga o carte nouă, să vadă lista cărților sale sau să meargă în pagina de căutare dacă dorește informații despre o carte anume.  
+ ![ex2](ecranlista.PNG)  
+ ![ex3](ecransearch.PNG)  
+ 
  ### Erori întâmpinate în realizarea aplicației
   #### i) "Failed to connect to 127.0.0.1 port 8080: Connection refused"  
    ![ex1](error1.PNG)   
